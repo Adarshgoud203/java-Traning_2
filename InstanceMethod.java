@@ -1,0 +1,9 @@
+class Test{
+static int data=3;
+static class Inner{
+void msg(){System.out.println("data is"+ data);}
+}
+public static void main(String args[]){
+Test.Inner obj=new Test.Inner();
+obj.msg();
+}}
